@@ -1,0 +1,250 @@
+body {
+ margin: 0;
+/* unpopulated-state */
+position: absolute;
+width: 550px;
+height: 550px;
+left: 62px;
+top: 64px;
+background: #1F2937;
+}
+
+.heading{
+    /* Heading */
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 5px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#rpass{
+    color: #4ADF86;
+}
+
+.description{
+    /* Supporting text */
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+}
+
+.generate{
+    /* text-base/leading-6/font-medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+#numSign{
+    /* text-base/leading-6/font-medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 480px;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.line{
+    /* Line 17 */
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+
+    border: 1px solid #2F3E53;
+}
+
+#lenBox{
+     /* Text */
+    position: absolute;
+    width: 180px;
+    height: 32px;
+    left: 67px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #55F991;
+
+    /* Rectangle 95 */
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 280px;
+    top: 285px;
+
+    background: #273549;
+    border-radius: 6px;
+}
+
+#box1{
+    
+    /* Text */
+    position: absolute;
+    width: 180px;
+    height: 32px;
+    left: 67px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #55F991;
+
+    /* Rectangle 95 */
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+
+    background: #273549;
+    border-radius: 6px;
+}
+
+#box2{
+    /* Text */
+    position: absolute;
+    width: 192px;
+    height: 32px;
+    left: 297px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #55F991;
+
+    /* Rectangle 96 */
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+
+    background: #273549;
+    border-radius: 6px;
+}
